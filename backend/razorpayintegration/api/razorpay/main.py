@@ -5,7 +5,7 @@ from rest_framework import status
 class RazorpayClient: 
     def create_order(self, amount, currency):
         data = {
-            "amount": 1,
+            "amount": 110,
             "currency": "INR",
         }
         try:
